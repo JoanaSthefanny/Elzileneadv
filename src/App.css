@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root{
+  --cor-de-fundo: #FFFFFF;
+  --cor-de-card1: #e9e3d9;
+  --cor-de-card2: #BBB4AF;
+  --efeitos: #DA9A9A;
+  --titulo1: #FBB03B;
+  --titulo2: #A49B97;
+  --destaque: #EBBA6E;
+  --texto1: #300202;
+  --texto2: #4B0B0B;
+  --texto3: #853232;
+
+  --fonte-primaria: "Judson", serif;;
+}
+
+.App {
+  text-align: center;
+  font-family: var(--fonte-primaria);
+}
+
+.footer{
+  background-color: var(--cor-de-card2);
+  color: var(--texto1);
+  padding: 24px;
+  font-size: 20px;
+}

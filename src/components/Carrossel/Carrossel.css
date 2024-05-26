@@ -1,0 +1,66 @@
+.carrossel{
+    margin-top: 30px;
+}
+
+.carrossel h2{
+    color: var(--texto1);
+    border-bottom: 3px solid var(--texto2);
+    display: inline-block;
+}
+
+.carrossel-aviso{
+    margin: 0;
+    padding-top: 20px;
+}
+
+.carrossel-swiper{
+    background-color: var(--cor-de-card2);
+}
+
+.carrosel h5{
+    display: block;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    display: none;
+}
+
+.swiper-pagination{
+    position: initial;
+}
+
+
+@media screen and (min-width: 1024px) { 
+    .carrossel-aviso{
+        display: none;
+    }
+
+    .carrossel h2{
+        font-size: 28px;
+    }
+
+    .swiper{
+        width: 60%;
+    }
+
+    .swiper-button-prev, .swiper-button-next{
+        display: block;
+        top: 45%;
+    }
+
+}
+
+@media screen and (min-width: 1728px) {
+        .carrossel-aviso{
+        display: none;
+    }
+
+    .swiper{
+        width: 50%;
+    }
+    
+}
